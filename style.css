@@ -21,6 +21,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px dashed black ;
+
 }
 
 .bluecont {
@@ -35,6 +37,8 @@ nav {
     background-color: violet;
     height: 80%;
     width: 60%; 
+    border: 2px dashed black ;
+
 }
 
 
@@ -52,7 +56,9 @@ nav {
     height:  80%;
     width: 60%;
     flex: 0 1 70%;
-    background-color: rgb(26, 95, 199)  
+    background-color: rgb(26, 95, 199);
+    border: 2px dashed black ;
+
 }
 
 aside {
@@ -84,6 +90,8 @@ aside {
     background-color: green;
     height: 80%;
     width: 100%;
+    border: 2px dashed black ;
+
 }
 
 .darkgreybox {
@@ -102,6 +110,8 @@ aside {
     height:  80%;
     width: 60%;
     flex: 0 1 40%;
+    border: 1px dashed black ;
+
 }
 
 .fourboxes {
@@ -110,6 +120,8 @@ aside {
     height:  80%;
     width: 60%;
     flex: 0 1 15%;
+    border: 1px dashed white ;
+
 }
 
 
@@ -129,10 +141,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-inline: 0.5em;
 }
 
 .f-logo, .f-button {
-    border: 1px solid black;
+    border: 1px dashed black ;
     height: 1.2em;
     width: 4em;
     background-color: pink;
