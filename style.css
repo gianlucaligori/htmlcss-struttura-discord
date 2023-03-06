@@ -93,6 +93,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid lightgrey;
 }
 
 .salmon {
@@ -110,5 +111,34 @@ aside {
     width: 60%;
     flex: 0 1 15%;
 }
+
+
+footer {
+    background-color: rgb(82, 82, 82);
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.f-cont {
+    height: 70%;
+    width: 70%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-logo, .f-button {
+    border: 1px solid black;
+    height: 1.2em;
+    width: 4em;
+    background-color: pink;
+    text-align: center;
+    
+}
+
 
 
