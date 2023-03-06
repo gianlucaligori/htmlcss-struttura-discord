@@ -10,6 +10,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 nav {
@@ -47,7 +48,7 @@ nav {
     align-items: center;
 }
 
-article, aside {
+.bluebox, aside {
     height:  80%;
     width: 60%;
     flex: 0 1 70%;
@@ -61,7 +62,7 @@ aside {
 
 .greycont {
     padding-inline: 15%;
-    background-color: grey;
+    background-color:lightgray;
     height: 18em;
     display: flex;
     justify-content: center;
@@ -71,11 +72,43 @@ aside {
 
 .greybig {
     padding-inline: 15%;
-    background-color: grey;
-    height: 40em;
+    background-color: lightgray;
+    height: 45em;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
+.greenbox {
+    background-color: green;
+    height: 80%;
+    width: 100%;
+}
+
+.darkgreybox {
+    padding-inline: 15%;
+    background-color: rgb(82, 82, 82);
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salmon {
+    border: solid black;
+    background-color: salmon;
+    height:  80%;
+    width: 60%;
+    flex: 0 1 40%;
+}
+
+.fourboxes {
+    border: solid black;
+    background-color: cadetblue;
+    height:  80%;
+    width: 60%;
+    flex: 0 1 15%;
+}
+
 
