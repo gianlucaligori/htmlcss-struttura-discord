@@ -22,17 +22,60 @@ nav {
     align-items: center;
 }
 
-main {
+.bluecont {
+    height: 16em;
     background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.violetbox {
+    background-color: violet;
+    height: 80%;
+    width: 60%; 
+}
+
+
+
+.whitecont {
+    padding-inline: 15%;
+    background-color: white;
     height: 18em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article, aside {
+    height:  80%;
+    width: 60%;
+    flex: 0 1 70%;
+    background-color: rgb(26, 95, 199)  
+}
+
+aside {
+    flex: 0 1 30%;
+    background-color: pink;
+}
+
+.greycont {
+    padding-inline: 15%;
+    background-color: grey;
+    height: 18em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.greybig {
+    padding-inline: 15%;
+    background-color: grey;
+    height: 40em;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.pinkbox {
-    background-color: pink;
-    height: 80%;
-    width: 60%; 
-}
